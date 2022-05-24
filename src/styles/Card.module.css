@@ -1,0 +1,40 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1em;
+    background-color: rgb(179, 176, 176);
+    margin-bottom: 2em;
+    border-radius: 1em;
+    width: 30%;
+    box-shadow: 10px 5px 5px black;
+}
+
+.card p{
+    text-align: center;
+    padding: 5px;
+    margin: 1em 0;
+    font-size: 1.5em;
+    color: #FFF;
+    background-color: red;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h3{
+    text-transform: capitalize;
+}
+.card a{
+    padding-top: 2em;
+    text-decoration: none;
+    color: #FFF;
+    border-bottom: 2px #FFF;
+    transition: .3s;
+}
+
+.card a:hover{
+    color: brown;
+}
